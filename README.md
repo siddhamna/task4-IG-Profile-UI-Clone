@@ -12,4 +12,3 @@ instagram-ui/
 
 └── style.css           # UI layout rules, responsive grids, and design tokens
 
-Deployed Link: rainbow-bubblegum-ae4d21.netlify.app
