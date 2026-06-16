@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram UI Layouts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+
+        <section class="phone-screen" id="screen-profile">
+            <header class="screen-header">
+                <span class="username">instagram_user</span>
+                <div class="header-actions">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+
+            <div class="profile-info-container">
+                <div class="profile-avatar-wrapper">
+                    <div class="profile-avatar-main"></div>
+                    <div class="add-story-badge">+</div>
+                </div>
+                <div class="profile-stats">
+                    <div class="stat-item"><strong>12</strong><span>Posts</span></div>
+                    <div class="stat-item"><strong>450</strong><span>Followers</span></div>
+                    <div class="stat-item"><strong>380</strong><span>Following</span></div>
+                </div>
+            </div>
+
+            <div class="profile-bio">
+                <span class="display-name">UI/UX Designer</span>
+                <p>Creating beautiful user interfaces and modern web experiences.</p>
+            </div>
+
+            <div class="profile-actions">
+                <button class="btn">Edit Profile</button>
+                <button class="btn">Share Profile</button>
+            </div>
+
+            <div class="highlights-tray">
+                <div class="highlight-item">
+                    <div class="highlight-circle empty-add"><i class="fa-solid fa-plus"></i></div>
+                    <span>New</span>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-circle gradient-border"></div>
+                    <span>Design</span>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-circle gradient-border"></div>
+                    <span>Code</span>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-circle gradient-border"></div>
+                    <span>Travel</span>
+                </div>
+            </div>
+
+            <div class="tabs-nav">
+                <div class="tab active"><i class="fa-solid fa-table-cells"></i></div>
+                <div class="tab"><i class="fa-regular fa-id-badge"></i></div>
+            </div>
+
+            <div class="scrollable-content content-grid">
+                <div class="grid-post gradient-post"></div>
+                <div class="grid-post gradient-post"></div>
+                <div class="grid-post gradient-post"></div>
+                <div class="grid-post gradient-post"></div>
+                <div class="grid-post gradient-post"></div>
+                <div class="grid-post gradient-post"></div>
+            </div>
+
+            <nav class="bottom-nav">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-square-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-user active-nav"></i>
+            </nav>
+        </section>
+
+
+        <section class="phone-screen" id="screen-home">
+            <header class="screen-header">
+                <span class="logo-text">Instagram</span>
+                <div class="header-actions">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </header>
+
+            <div class="stories-tray">
+                <div class="story-wrapper">
+                    <div class="story-avatar user-story"></div>
+                    <span>Your Story</span>
+                </div>
+                <div class="story-wrapper"><div class="story-avatar gradient-border"></div><span>alex_w</span></div>
+                <div class="story-wrapper"><div class="story-avatar gradient-border"></div><span>sam_d</span></div>
+                <div class="story-wrapper"><div class="story-avatar gradient-border"></div><span>jess_ux</span></div>
+                <div class="story-wrapper"><div class="story-avatar gradient-border"></div><span>kris_k</span></div>
+            </div>
+
+            <div class="scrollable-content feed-container">
+                <article class="feed-post">
+                    <div class="post-header">
+                        <div class="post-user-avatar"></div>
+                        <span class="post-username">design_studio</span>
+                        <i class="fa-solid fa-ellipsis post-more"></i>
+                    </div>
+                    <div class="post-media gradient-post"></div>
+                    <div class="post-footer">
+                        <div class="post-actions">
+                            <div class="left-actions">
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-comment"></i>
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <div class="post-likes"><strong>1,240 likes</strong></div>
+                        <div class="post-caption"><strong>design_studio</strong> Pushing modern gradients to the edge! 🔥</div>
+                    </div>
+                </article>
+
+                <article class="feed-post">
+                    <div class="post-header">
+                        <div class="post-user-avatar"></div>
+                        <span class="post-username">web_dev</span>
+                        <i class="fa-solid fa-ellipsis post-more"></i>
+                    </div>
+                    <div class="post-media gradient-post-alt"></div>
+                    <div class="post-footer">
+                        <div class="post-actions">
+                            <div class="left-actions">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-comment"></i>
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <div class="post-likes"><strong>856 likes</strong></div>
+                        <div class="post-caption"><strong>web_dev</strong> Building mobile layouts with absolute clean semantic markup.</div>
+                    </div>
+                </article>
+            </div>
+
+            <nav class="bottom-nav">
+                <i class="fa-solid fa-house active-nav"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-square-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-user"></i>
+            </nav>
+        </section>
+
+
+        <section class="phone-screen" id="screen-explore">
+            <header class="explore-header">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search" disabled />
+                </div>
+                <i class="fa-solid fa-expand explore-scan-icon"></i>
+            </header>
+
+            <div class="category-tray">
+                <span class="pill active-pill"><i class="fa-solid fa-shop"></i> Shop</span>
+                <span class="pill"><i class="fa-solid fa-lock"></i> IGTV</span>
+                <span class="pill">Travel</span>
+                <span class="pill">Architecture</span>
+                <span class="pill">Style</span>
+            </div>
+
+            <div class="scrollable-content explore-grid">
+                <div class="explore-item item-normal color-1"></div>
+                <div class="explore-item item-tall color-2"></div>
+                <div class="explore-item item-normal color-3"></div>
+                <div class="explore-item item-normal color-4"></div>
+                <div class="explore-item item-normal color-5"></div>
+                <div class="explore-item item-normal color-1"></div>
+                <div class="explore-item item-normal color-3"></div>
+                <div class="explore-item item-normal color-4"></div>
+                <div class="explore-item item-wide color-2"></div>
+            </div>
+
+            <nav class="bottom-nav">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-magnifying-glass active-nav"></i>
+                <i class="fa-regular fa-square-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-user"></i>
+            </nav>
+        </section>
+
+    </div>
+
+</body>
+</html>
