@@ -11,3 +11,5 @@ instagram-ui/
 ├── index.html          # Semantic HTML5 architecture containing all 3 viewports
 
 └── style.css           # UI layout rules, responsive grids, and design tokens
+
+Deployed Link: rainbow-bubblegum-ae4d21.netlify.app
