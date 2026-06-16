@@ -7,6 +7,7 @@ Developer Stack: HTML5, CSS3 (No external dependencies/libraries)
 
 📁 Project Folder Structure
 instagram-ui/
-│
+
 ├── index.html          # Semantic HTML5 architecture containing all 3 viewports
+
 └── style.css           # UI layout rules, responsive grids, and design tokens
